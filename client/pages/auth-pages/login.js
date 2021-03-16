@@ -3,6 +3,7 @@ import React,{useState,useEffect} from 'react';
 import { useHistory} from "react-router-dom";
 import AuthService from '../../utils/apicalls';
 import PcImg from '../../assets/images/img-01.png';
+import Cookies from 'js-cookies';
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -27,7 +28,7 @@ const LoginPage = () => {
     };
 
     useEffect(() => {
-        if (localStorage.getItem("authToken")) {
+        if (Cookies.get("token")) {
           history.push("/");
         }
       }, [history]);
