@@ -1,3 +1,3 @@
 # Added code to github
 by prateek
-by rohit by fork
+by rohit by forking
