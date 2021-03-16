@@ -1,2 +1,1 @@
-# Added code to gtihub
-new code added
+# Added code to github
