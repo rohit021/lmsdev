@@ -78,9 +78,6 @@ const signout = function (next) {
 
 
 
-
-
-
   export default {
     login,register,isAuthenticated, 
     signout
